@@ -1,0 +1,4 @@
+[libgpcl6]
+source = "github"
+github = "ArtifexSoftware/ghostpdl-downloads"
+use_latest_release = "yes"
