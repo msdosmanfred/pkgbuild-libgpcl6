@@ -1,4 +1,6 @@
 [libgpcl6]
-source = "github"
-github = "ArtifexSoftware/ghostpdl-downloads"
-use_latest_release = "yes"
+source = "git"
+git = "git://git.ghostscript.com/ghostpdl.git"
+prefix = "ghostpdl-"
+include_regex = "ghostpdl-.*"
+excluse_regex = ".*(rc|test).*"
