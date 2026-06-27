@@ -1,6 +1,6 @@
 pkgbase = libgpcl6
 	pkgdesc = GhostPCL library for use with 86Box's PCL printing feature
-	pkgver = 10.07.0
+	pkgver = 10.07.1
 	pkgrel = 1
 	url = https://www.ghostscript.com/
 	arch = x86_64
@@ -11,7 +11,7 @@ pkgbase = libgpcl6
 	depends = ghostscript
 	provides = libgpcl6
 	conflicts = libgpcl6-git
-	source = https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10070/ghostpdl-10.07.0.tar.gz
-	sha256sums = 93dc72ee259374f0b576fb926bbe3648504020c75638c302bd144f94f1641ae2
+	source = https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10071/ghostpdl-10.07.1.tar.gz
+	sha256sums = 5c580ed888ce42ce4d76b8afac302e8b507e08d05e52e05b3649e0732559bfe4
 
 pkgname = libgpcl6

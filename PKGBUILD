@@ -6,7 +6,7 @@
 # Maintainer: Alexander Höfer <hoefer9(AT)gmail.com>
 pkgname=libgpcl6
 _pkgname=ghostpdl
-pkgver=10.07.0
+pkgver=10.07.1
 pkgrel=1
 #cdepoch=1
 pkgdesc="GhostPCL library for use with 86Box's PCL printing feature"
@@ -18,7 +18,7 @@ makedepends=('base-devel')
 provides=('libgpcl6')
 conflicts=('libgpcl6-git')
 source=(https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${pkgver//./}/ghostpdl-${pkgver}.tar.gz)
-sha256sums=('93dc72ee259374f0b576fb926bbe3648504020c75638c302bd144f94f1641ae2')
+sha256sums=('5c580ed888ce42ce4d76b8afac302e8b507e08d05e52e05b3649e0732559bfe4')
 
 prepare() {
   cd $srcdir/$_pkgname-$pkgver
